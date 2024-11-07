@@ -1,0 +1,12 @@
+api_keys:
+  gemini_key: "AIzaSyCcZ8kjyxC_MEiCa_5iaXe3KjS-0WWf6-Y"
+  search_engine_key: "c06c3300d65c83f2355c9b87d87184ca74bee87c"
+agents:
+  research_agent:
+    search_engine: "Serper"
+  use_case_agent:
+    model: "openai-davinci"
+  resource_agent:
+    dataset_sources: ["Kaggle", "HuggingFace", "GitHub"]
+output:
+  dataset_links_file: "outputs/resource_links.md"
